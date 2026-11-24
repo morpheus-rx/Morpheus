@@ -3,6 +3,14 @@ package com.nuvio.app.features.settings
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.material3.Icon
+import androidx.compose.ui.draw.clip
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.BugReport
@@ -23,6 +31,8 @@ import nuvio.composeapp.generated.resources.about_licenses_attributions_subtitle
 import nuvio.composeapp.generated.resources.about_supporters_contributors_subtitle
 import nuvio.composeapp.generated.resources.compose_about_made_with
 import nuvio.composeapp.generated.resources.compose_about_version_format
+import nuvio.composeapp.generated.resources.reddit_logo
+import nuvio.composeapp.generated.resources.telegram_logo
 import nuvio.composeapp.generated.resources.compose_settings_page_licenses_attributions
 import nuvio.composeapp.generated.resources.compose_settings_page_privacy_policy
 import nuvio.composeapp.generated.resources.compose_settings_page_supporters_contributors
@@ -32,6 +42,7 @@ import nuvio.composeapp.generated.resources.compose_settings_root_check_updates_
 import nuvio.composeapp.generated.resources.compose_settings_root_privacy_policy_description
 import nuvio.composeapp.generated.resources.updates_debug_test_description
 import nuvio.composeapp.generated.resources.updates_debug_test_title
+import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 
 private const val PRIVACY_POLICY_URL = "https://nuvio.tv/privacy-policy"
@@ -117,6 +128,7 @@ internal fun LazyListScope.aboutSettingsContent(
 
 internal fun LazyListScope.settingsFooterContent(isTablet: Boolean) {
     item {
+        val uriHandler = LocalUriHandler.current
         androidx.compose.foundation.layout.Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -136,6 +148,24 @@ internal fun LazyListScope.settingsFooterContent(isTablet: Boolean) {
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center,
             )
+            Spacer(modifier = Modifier.height(12.dp))
+            Row(
+                modifier = Modifier.align(Alignment.CenterHorizontally),
+                horizontalArrangement = Arrangement.spacedBy(18.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                developerContactLink(
+                    icon = painterResource(Res.drawable.reddit_logo),
+                    label = "u/7AmOoCh",
+                    onClick = { uriHandler.openUri("https://www.reddit.com/user/7AmOoCh/") },
+                )
+                developerContactLink(
+                    icon = painterResource(Res.drawable.telegram_logo),
+                    label = "@Adrenalin_Rx",
+                    onClick = { uriHandler.openUri("https://t.me/Adrenalin_Rx") },
+                )
+            }
+            Spacer(modifier = Modifier.height(10.dp))
             Text(
                 text = stringResource(
                     Res.string.compose_about_version_format,
@@ -148,5 +178,33 @@ internal fun LazyListScope.settingsFooterContent(isTablet: Boolean) {
                 textAlign = TextAlign.Center,
             )
         }
+    }
+}
+
+@androidx.compose.runtime.Composable
+private fun developerContactLink(
+    icon: androidx.compose.ui.graphics.painter.Painter,
+    label: String,
+    onClick: () -> Unit,
+) {
+    Row(
+        modifier = Modifier
+            .clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
+            .clickable(onClick = onClick)
+            .padding(horizontal = 6.dp, vertical = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(
+            painter = icon,
+            contentDescription = null,
+            modifier = Modifier.size(14.dp),
+            tint = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Spacer(modifier = Modifier.width(5.dp))
+        Text(
+            text = label,
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
 }

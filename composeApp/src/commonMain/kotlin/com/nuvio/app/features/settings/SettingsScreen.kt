@@ -765,7 +765,7 @@ private fun MobileSettingsScreen(
                 )
                 SettingsPage.About -> aboutSettingsContent(
                     isTablet = false,
-                    onWhatsNewClick = onWhatsNewClick,
+                    onWhatsNewClick = null,
                     onSupportersContributorsClick = onSupportersContributorsClick,
                     onLicensesAttributionsClick = onLicensesAttributionsClick,
                     onCheckForUpdatesClick = onCheckForUpdatesClick,
@@ -1224,7 +1224,7 @@ private fun TabletSettingsScreen(
                     )
                     SettingsPage.About -> aboutSettingsContent(
                         isTablet = true,
-                        onWhatsNewClick = { openInlinePage(SettingsPage.WhatsNew) },
+                        onWhatsNewClick = null,
                         onSupportersContributorsClick = { openInlinePage(SettingsPage.SupportersContributors) },
                         onLicensesAttributionsClick = { openInlinePage(SettingsPage.LicensesAttributions) },
                         onCheckForUpdatesClick = onCheckForUpdatesClick,

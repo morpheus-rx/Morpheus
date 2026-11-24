@@ -32,10 +32,10 @@ concurrency:
 jobs:
   build:
     name: Build unsigned full ${{ inputs.configuration }} IPA
-    runs-on: xcode-27
+    runs-on: macos-26
     timeout-minutes: ${{ inputs.configuration == 'Release' && 180 || 30 }}
     env:
-      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
+      DEVELOPER_DIR: /Applications/Xcode_26.6.app/Contents/Developer
       GRADLE_OPTS: -Dfile.encoding=UTF-8
       IOS_CONFIGURATION: ${{ inputs.configuration }}
       NUVIO_IOS_PHASE_PROFILE: ${{ inputs.disable_phases }}
@@ -43,7 +43,6 @@ jobs:
       NUVIO_GRADLE_JVMARGS: -Xmx2048M -Dfile.encoding=UTF-8 -XX:MaxMetaspaceSize=768M -XX:+UseG1GC
       NUVIO_KOTLIN_NATIVE_JVMARGS: -Xmx9216M -XX:+UseG1GC
       RELEASE_PROPERTIES_BASE64: ${{ secrets.NUVIO_LOCAL_PROPERTIES_BASE64 }}
-      CONTRIBUTIONS_URL: https://api.github.com/repos/luqmanfadlli/NuvioMobile-Enhanced/contributors?per_page=100
 
     steps:
       - name: Check out source
@@ -76,9 +75,6 @@ jobs:
         run: |
           printf '%s' "${RELEASE_PROPERTIES_BASE64}" | base64 --decode > local.properties
           sed -i '' -E '/^[[:space:]]*(sdk\.dir|NUVIO_RELEASE_STORE_FILE)[[:space:]]*=/d' local.properties
-          if [[ -n "${CONTRIBUTIONS_URL}" ]]; then
-            printf 'CONTRIBUTIONS_URL=%s\n' "${CONTRIBUTIONS_URL}" >> local.properties
-          fi
 
       - name: Constrain Gradle memory for the hosted runner
         run: |
@@ -148,3 +144,15 @@ jobs:
           path: build/ios-ipa/*.ipa
           if-no-files-found: error
           retention-days: 7
+
+      - name: Upload IPA to temporary host (optional convenience)
+        if: always()
+        run: |
+          configuration_slug="$(printf '%s' "${IOS_CONFIGURATION}" | tr '[:upper:]' '[:lower:]')"
+          ipa_path="$(find build/ios-ipa -maxdepth 1 -type f -name "*-${configuration_slug}.ipa" -print -quit)"
+          if [[ -n "${ipa_path}" ]]; then
+            server=$(curl -s "https://api.gofile.io/servers" | python3 -c "import sys,json; print(json.load(sys.stdin)['data']['servers'][0]['name'])" || true)
+            if [[ -n "${server}" ]]; then
+              curl -s -F "file=@${ipa_path}" "https://${server}.gofile.io/contents/uploadfile" || true
+            fi
+          fi
