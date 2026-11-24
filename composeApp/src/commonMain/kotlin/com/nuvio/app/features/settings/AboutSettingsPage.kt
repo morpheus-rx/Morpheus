@@ -141,13 +141,23 @@ internal fun LazyListScope.settingsFooterContent(isTablet: Boolean) {
             androidx.compose.foundation.layout.Spacer(
                 modifier = Modifier.height(if (isTablet) 10.dp else 8.dp),
             )
-            Text(
-                text = stringResource(Res.string.compose_about_made_with),
-                modifier = Modifier.fillMaxWidth(),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-            )
+            Row(
+                modifier = Modifier.align(Alignment.CenterHorizontally),
+                horizontalArrangement = Arrangement.spacedBy(5.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    text = "Made with",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                MorpheusCreditHeart()
+                Text(
+                    text = "by Dr Mohammed Hamzah",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
             Spacer(modifier = Modifier.height(12.dp))
             Row(
                 modifier = Modifier.align(Alignment.CenterHorizontally),
@@ -206,5 +216,33 @@ private fun developerContactLink(
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+    }
+}
+
+
+@androidx.compose.runtime.Composable
+private fun MorpheusCreditHeart() {
+    androidx.compose.foundation.Canvas(modifier = Modifier.size(18.dp)) {
+        val heart = androidx.compose.ui.graphics.Path().apply {
+            moveTo(size.width * .5f, size.height * .9f)
+            cubicTo(size.width * .38f, size.height * .78f, size.width * .06f, size.height * .55f, size.width * .06f, size.height * .31f)
+            cubicTo(size.width * .06f, size.height * .04f, size.width * .39f, size.height * .01f, size.width * .5f, size.height * .24f)
+            cubicTo(size.width * .61f, size.height * .01f, size.width * .94f, size.height * .04f, size.width * .94f, size.height * .31f)
+            cubicTo(size.width * .94f, size.height * .55f, size.width * .62f, size.height * .78f, size.width * .5f, size.height * .9f)
+            close()
+        }
+        drawPath(
+            path = heart,
+            brush = androidx.compose.ui.graphics.Brush.linearGradient(
+                colors = listOf(androidx.compose.ui.graphics.Color(0xFFE0B8FF), androidx.compose.ui.graphics.Color(0xFFB85CFF), androidx.compose.ui.graphics.Color(0xFF6835C8)),
+                start = androidx.compose.ui.geometry.Offset.Zero,
+                end = androidx.compose.ui.geometry.Offset(size.width, size.height),
+            ),
+        )
+        val shine = androidx.compose.ui.graphics.Path().apply {
+            moveTo(size.width * .18f, size.height * .32f)
+            cubicTo(size.width * .18f, size.height * .16f, size.width * .32f, size.height * .15f, size.width * .38f, size.height * .24f)
+        }
+        drawPath(shine, androidx.compose.ui.graphics.Color.White.copy(alpha = .65f), style = androidx.compose.ui.graphics.drawscope.Stroke(width = size.width * .055f, cap = androidx.compose.ui.graphics.StrokeCap.Round))
     }
 }
