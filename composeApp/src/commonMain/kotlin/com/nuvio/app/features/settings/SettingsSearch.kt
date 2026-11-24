@@ -491,13 +491,7 @@ internal fun settingsSearchEntries(
             section = stringResource(Res.string.settings_appearance_nav_bar_style),
         )
     }
-    addRow(
-        page = SettingsPage.Appearance,
-        key = "app-icon",
-        title = stringResource(Res.string.settings_appearance_app_icon),
-        pageLabel = appearancePage,
-        section = stringResource(Res.string.settings_appearance_section_display),
-    )
+
     if (!isIos) {
         addRow(
             page = SettingsPage.Layout,
