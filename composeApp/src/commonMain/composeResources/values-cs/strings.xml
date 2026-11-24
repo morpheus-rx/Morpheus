@@ -470,7 +470,7 @@
     <string name="settings_licenses_attributions_section_app">LICENCE APLIKACE</string>
     <string name="settings_licenses_attributions_section_data">DATA &amp; SLUŽBY</string>
     <string name="settings_licenses_attributions_section_playback">LICENCE PŘEHRÁVÁNÍ</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Zdrojový kód a licenční podmínky jsou dostupné v repozitáři projektu.</string>
     <string name="settings_licenses_attributions_nuvio_license">Licencováno pod GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
@@ -1982,8 +1982,8 @@
     <string name="server_official_action">Použít oficiální server</string>
     <string name="server_switching">Přepínání…</string>
     <string name="server_error_invalid_url">Zadejte platnou HTTP nebo HTTPS URL backendu.</string>
-    <string name="server_error_official_active">api.nuvio.tv je oficiální server a už je vybraný.</string>
-    <string name="server_error_official_available">api.nuvio.tv je oficiální server. Zavřete toto okno a volbou Použít oficiální server se přepněte zpět.</string>
+    <string name="server_error_official_active">Je oficiální server a už je vybraný.</string>
+    <string name="server_error_official_available">Je oficiální server. Zavřete toto okno a volbou Použít oficiální server se přepněte zpět.</string>
     <string name="server_error_connection">Nepodařilo se připojit ke koncovému bodu pro zjištění konfigurace. Zkontrolujte URL a dostupnost serveru.</string>
     <string name="server_error_http">Koncový bod pro zjištění konfigurace vrátil HTTP %1$d.</string>
     <string name="server_error_response_too_large">Konfigurační dokument je větší, než je povoleno.</string>

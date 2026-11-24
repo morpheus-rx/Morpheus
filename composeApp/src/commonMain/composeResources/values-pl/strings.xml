@@ -439,7 +439,7 @@
     <string name="settings_licenses_attributions_section_app">LICENCJA APLIKACJI</string>
     <string name="settings_licenses_attributions_section_data">DANE I USŁUGI</string>
     <string name="settings_licenses_attributions_section_playback">LICENCJA ODTWARZANIA</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Kod źródłowy i warunki licencji są dostępne w repozytorium projektu.</string>
     <string name="settings_licenses_attributions_nuvio_license">Licencjonowany na podstawie GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
@@ -2099,8 +2099,8 @@
     <string name="server_official_action">Użyj oficjalnego serwera</string>
     <string name="server_switching">Przełączanie…</string>
     <string name="server_error_invalid_url">Wpisz prawidłowy adres URL HTTP lub HTTPS backendu.</string>
-    <string name="server_error_official_active">api.nuvio.tv to oficjalny serwer i jest już wybrany.</string>
-    <string name="server_error_official_available">api.nuvio.tv to oficjalny serwer. Zamknij to okno i wybierz „Użyj oficjalnego serwera", aby przełączyć.</string>
+    <string name="server_error_official_active">To oficjalny serwer i jest już wybrany.</string>
+    <string name="server_error_official_available">To oficjalny serwer. Zamknij to okno i wybierz „Użyj oficjalnego serwera", aby przełączyć.</string>
     <string name="server_error_connection">Nie udało się połączyć z punktem konfiguracji. Sprawdź adres URL i dostępność serwera.</string>
     <string name="server_error_http">Punkt konfiguracji zwrócił HTTP %1$d.</string>
     <string name="server_error_response_too_large">Dokument konfiguracji jest większy niż dozwolony.</string>

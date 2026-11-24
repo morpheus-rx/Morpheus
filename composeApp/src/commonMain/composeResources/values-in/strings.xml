@@ -403,8 +403,8 @@
     <string name="server_official_action">Gunakan server resmi</string>
     <string name="server_switching">Beralih…</string>
     <string name="server_error_invalid_url">Masukkan URL Backend HTTP atau HTTPS yang valid.</string>
-    <string name="server_error_official_active">api.nuvio.tv adalah server resmi dan sudah dipilih.</string>
-    <string name="server_error_official_available">api.nuvio.tv adalah server resmi. Tutup dialog ini dan pilih Gunakan server resmi untuk kembali.</string>
+    <string name="server_error_official_active">Adalah server resmi dan sudah dipilih.</string>
+    <string name="server_error_official_available">Adalah server resmi. Tutup dialog ini dan pilih Gunakan server resmi untuk kembali.</string>
     <string name="server_error_connection">Tidak dapat menjangkau endpoint discovery. Periksa URL dan ketersediaan server.</string>
     <string name="server_error_http">Endpoint discovery mengembalikan HTTP %1$d.</string>
     <string name="server_error_response_too_large">Dokumen discovery lebih besar dari yang diizinkan.</string>
@@ -637,7 +637,7 @@
     <string name="settings_licenses_attributions_backdrop_title">Backdrop 2.0.1</string>
     <string name="settings_licenses_attributions_backdrop_body">Dipakai untuk efek liquid glass. Dibuat oleh Kyant.</string>
     <string name="settings_licenses_attributions_backdrop_license">Dilisensikan di bawah Apache License, Version 2.0.</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Kode sumber dan ketentuan lisensi tersedia di repositori proyek.</string>
     <string name="settings_licenses_attributions_nuvio_license">Dilisensikan di bawah GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

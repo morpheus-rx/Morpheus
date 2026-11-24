@@ -493,7 +493,7 @@
     <string name="settings_licenses_attributions_section_app">UYGULAMA LİSANSI</string>
     <string name="settings_licenses_attributions_section_data">VERİ &amp; SERVİSLER</string>
     <string name="settings_licenses_attributions_section_playback">OYNATMA LİSANSI</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobil</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobil</string>
     <string name="settings_licenses_attributions_nuvio_body">Kaynak kodları ve lisans koşulları proje deposunda bulunabilir.</string>
     <string name="settings_licenses_attributions_nuvio_license">GNU Genel Kamu Lisansı v3.0 kapsamında lisanslanmıştır.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
@@ -2256,8 +2256,8 @@ Bu özelliği tamamen kendi sorumluluğunuzda kullanırsınız. P2P istediğiniz
     <string name="server_official_action">Resmi sunucuyu kullan</string>
     <string name="server_switching">Değiştiriliyor…</string>
     <string name="server_error_invalid_url">Geçerli bir HTTP veya HTTPS Arka Uç URL'si girin.</string>
-    <string name="server_error_official_active">api.nuvio.tv resmi sunucudur ve zaten seçilidir.</string>
-    <string name="server_error_official_available">api.nuvio.tv resmi sunucudur. Bu iletişim kutusunu kapatın ve geri dönmek için Resmi sunucuyu kullan'ı seçin.</string>
+    <string name="server_error_official_active">Resmi sunucudur ve zaten seçilidir.</string>
+    <string name="server_error_official_available">Resmi sunucudur. Bu iletişim kutusunu kapatın ve geri dönmek için Resmi sunucuyu kullan'ı seçin.</string>
     <string name="server_error_connection">Keşif uç noktasına ulaşılamadı. URL'yi ve sunucu kullanılabilirliğini kontrol edin.</string>
     <string name="server_error_http">Keşif uç noktası HTTP %1$d döndürdü.</string>
     <string name="server_error_response_too_large">Keşif belgesi izin verilenden daha büyük.</string>

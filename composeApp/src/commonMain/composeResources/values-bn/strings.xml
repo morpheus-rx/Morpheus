@@ -398,8 +398,8 @@
     <string name="server_official_action">অফিসিয়াল সার্ভার ব্যবহার করুন</string>
     <string name="server_switching">পরিবর্তন করা হচ্ছে…</string>
     <string name="server_error_invalid_url">একটি বৈধ HTTP বা HTTPS ব্যাকএন্ড URL লিখুন।</string>
-    <string name="server_error_official_active">api.nuvio.tv অফিসিয়াল সার্ভার এবং ইতিমধ্যেই নির্বাচিত।</string>
-    <string name="server_error_official_available">api.nuvio.tv হলো অফিসিয়াল সার্ভার। ফিরে যেতে এই ডায়ালগটি বন্ধ করুন এবং 'অফিসিয়াল সার্ভার ব্যবহার করুন' বেছে নিন।</string>
+    <string name="server_error_official_active">অফিসিয়াল সার্ভার এবং ইতিমধ্যেই নির্বাচিত।</string>
+    <string name="server_error_official_available">হলো অফিসিয়াল সার্ভার। ফিরে যেতে এই ডায়ালগটি বন্ধ করুন এবং 'অফিসিয়াল সার্ভার ব্যবহার করুন' বেছে নিন।</string>
     <string name="server_error_connection">ডিসকভারি এন্ডপয়েন্টে পৌঁছানো যায়নি। URL এবং সার্ভারের প্রাপ্যতা যাচাই করুন।</string>
     <string name="server_error_http">ডিসকভারি এন্ডপয়েন্ট HTTP %1$d কোড ফেরত দিয়েছে।</string>
     <string name="server_error_response_too_large">ডিসকভারি ডকুমেন্টটি অনুমোদিত আকারের চেয়ে বড়।</string>
@@ -578,7 +578,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">ব্যাকগ্রাউন্ড ব্লার ইফেক্টের জন্য ব্যবহার করা হয়। ক্রিস ব্যানস দ্বারা নির্মিত।</string>
     <string name="settings_licenses_attributions_haze_license">Apache লাইসেন্সের অধীনে লাইসেন্সকৃত, সংস্করণ 2.0।</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus মোবাইল</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio মোবাইল</string>
     <string name="settings_licenses_attributions_nuvio_body">সোর্স কোড এবং লাইসেন্সের শর্তাবলী প্রকল্পের রিপোজিটরিতে উপলব্ধ।</string>
     <string name="settings_licenses_attributions_nuvio_license">GNU জেনারেল পাবলিক লাইসেন্স v3.0-এর অধীনে লাইসেন্সপ্রাপ্ত।</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

@@ -397,8 +397,8 @@
     <string name="server_official_action">Officiële server gebruiken</string>
     <string name="server_switching">Overschakelen...</string>
     <string name="server_error_invalid_url">Voer een geldige HTTP- of HTTPS-backend-URL in.</string>
-    <string name="server_error_official_active">api.nuvio.tv is de officiële server en is al geselecteerd.</string>
-    <string name="server_error_official_available">api.nuvio.tv is de officiële server. Sluit dit venster en kies Officiële server gebruiken om terug te schakelen.</string>
+    <string name="server_error_official_active">Is de officiële server en is al geselecteerd.</string>
+    <string name="server_error_official_available">Is de officiële server. Sluit dit venster en kies Officiële server gebruiken om terug te schakelen.</string>
     <string name="server_error_connection">Kon het discovery-eindpunt niet bereiken. Controleer de URL en of de server beschikbaar is.</string>
     <string name="server_error_http">Het discovery-eindpunt gaf HTTP %1$d terug.</string>
     <string name="server_error_response_too_large">Het discovery-document is groter dan toegestaan.</string>
@@ -585,7 +585,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">Wordt gebruikt om achtergronden te vervagen. Gemaakt door Chris Banes.</string>
     <string name="settings_licenses_attributions_haze_license">Uitgebracht onder de Apache-licentie, versie 2.0.</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Broncode en licentievoorwaarden zijn beschikbaar in de projectrepository.</string>
     <string name="settings_licenses_attributions_nuvio_license">Uitgebracht onder de GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

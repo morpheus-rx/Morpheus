@@ -1,7 +1,7 @@
 package com.nuvio.app.features.discord
 
 internal object DiscordRpcConfig {
-    const val APP_NAME = "Nuvio"
+    const val APP_NAME = "Morpheus"
     const val APPLICATION_ID = "962990036020756480"
     const val DISCORD_API_URL = "https://discord.com/api/v10"
     const val KIZZY_API_URL = "https://kizzy-api.cjjdxhdjd.workers.dev"

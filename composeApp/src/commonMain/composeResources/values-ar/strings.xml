@@ -398,8 +398,8 @@
     <string name="server_official_action">استخدام الخادم الرسمي</string>
     <string name="server_switching">جارٍ التبديل…</string>
     <string name="server_error_invalid_url">أدخل عنوان URL صالحًا للواجهة الخلفية بصيغة HTTP أو HTTPS.</string>
-    <string name="server_error_official_active">api.nuvio.tv هو الخادم الرسمي وهو محدد بالفعل.</string>
-    <string name="server_error_official_available">api.nuvio.tv هو الخادم الرسمي. أغلق مربع الحوار هذا واختر «استخدام الخادم الرسمي» للعودة إليه.</string>
+    <string name="server_error_official_active">هذا هو الخادم الرسمي وهو محدد بالفعل.</string>
+    <string name="server_error_official_available">هذا هو الخادم الرسمي. أغلق مربع الحوار هذا واختر «استخدام الخادم الرسمي» للعودة إليه.</string>
     <string name="server_error_connection">تعذّر الوصول إلى نقطة نهاية الاكتشاف. تحقّق من عنوان URL ومن توفر الخادم.</string>
     <string name="server_error_http">أعادت نقطة نهاية الاكتشاف رمز HTTP %1$d.</string>
     <string name="server_error_response_too_large">مستند الاكتشاف أكبر من الحجم المسموح.</string>
@@ -582,7 +582,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">يُستخدم لتأثيرات تمويه الخلفية. من إنشاء Chris Banes.</string>
     <string name="settings_licenses_attributions_haze_license">مرخص بموجب رخصة Apache، الإصدار 2.0.</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">يتوفر الكود المصدري وشروط الترخيص في مستودع المشروع.</string>
     <string name="settings_licenses_attributions_nuvio_license">مرخّص بموجب رخصة GNU العامة الإصدار 3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

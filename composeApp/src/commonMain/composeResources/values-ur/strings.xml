@@ -397,8 +397,8 @@
     <string name="server_official_action">Official server استعمال کریں</string>
     <string name="server_switching">Server تبدیل کیا جا رہا ہے…</string>
     <string name="server_error_invalid_url">درست HTTP یا HTTPS Backend URL درج کریں۔</string>
-    <string name="server_error_official_active">api.nuvio.tv Official server ہے اور پہلے ہی منتخب ہے۔</string>
-    <string name="server_error_official_available">api.nuvio.tv Official server ہے۔ یہ dialog بند کریں اور واپس جانے کے لیے Official server استعمال کریں منتخب کریں۔</string>
+    <string name="server_error_official_active">Official server ہے اور پہلے ہی منتخب ہے۔</string>
+    <string name="server_error_official_available">Official server ہے۔ یہ dialog بند کریں اور واپس جانے کے لیے Official server استعمال کریں منتخب کریں۔</string>
     <string name="server_error_connection">Discovery endpoint تک رسائی نہیں ہو سکی۔ URL اور server availability چیک کریں۔</string>
     <string name="server_error_http">Discovery endpoint نے HTTP %1$d واپس کیا۔</string>
     <string name="server_error_response_too_large">Discovery document اجازت شدہ حد سے بڑا ہے۔</string>
@@ -577,7 +577,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">پس منظر کے blur effects کے لیے استعمال ہوتا ہے۔ Chris Banes نے بنایا۔</string>
     <string name="settings_licenses_attributions_haze_license">Apache License، Version 2.0 کے تحت لائسنس یافتہ۔</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">سورس کوڈ اور لائسنس کی شرائط project repository میں دستیاب ہیں۔</string>
     <string name="settings_licenses_attributions_nuvio_license">GNU General Public License v3.0 کے تحت لائسنس یافتہ۔</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

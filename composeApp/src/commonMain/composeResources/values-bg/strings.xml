@@ -615,7 +615,7 @@
     <string name="settings_licenses_attributions_section_app">ЛИЦЕНЗ НА ПРИЛОЖЕНИЕТО</string>
     <string name="settings_licenses_attributions_section_data">ДАННИ И УСЛУГИ</string>
     <string name="settings_licenses_attributions_section_playback">ЛИЦЕНЗ ЗА ВЪЗПРОИЗВЕЖДАНЕ</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Изходният код и условията на лиценза са достъпни в хранилището на проекта.</string>
     <string name="settings_licenses_attributions_nuvio_license">Лицензиран под GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

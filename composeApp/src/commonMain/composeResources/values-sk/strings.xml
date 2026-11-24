@@ -461,7 +461,7 @@
     <string name="settings_licenses_attributions_section_app">LICENCIA APLIKÁCIE</string>
     <string name="settings_licenses_attributions_section_data">DÁTA A SLUŽBY</string>
     <string name="settings_licenses_attributions_section_playback">LICENCIA PREHRÁVANIA</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Zdrojový kód a licenčné podmienky sú dostupné v repozitári projektu.</string>
     <string name="settings_licenses_attributions_nuvio_license">Licencované pod GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
@@ -1908,7 +1908,7 @@
     <string name="compose_auth_terms_prefix">Registráciou súhlasím s</string>
     <string name="compose_auth_terms_link">Podmienkami</string>
     <string name="settings_appearance_app_language_device">Jazyk zariadenia</string>
-    <string name="settings_content_discovery_addons_description_appstore">Pridávajte a spravujte doplnky, ktoré používate s Nuviom.</string>
+    <string name="settings_content_discovery_addons_description_appstore">Pridávajte a spravujte doplnky, ktoré používate s Morpheusm.</string>
     <string name="settings_playback_external_player_send_skip_segments">Odosielať časové značky intra a outra</string>
     <string name="settings_playback_external_player_send_skip_segments_description">Odovzdať vyriešené časové značky intra a outra externému prehrávaču na automatické preskakovanie. Funguje iba v prehrávačoch, ktoré to podporujú; ostatné prehrávače to ignorujú.</string>
     <string name="settings_playback_option_original">Pôvodný jazyk</string>
@@ -2221,8 +2221,8 @@
     <string name="server_official_action">Použiť oficiálny server</string>
     <string name="server_switching">Prepína sa…</string>
     <string name="server_error_invalid_url">Zadajte platnú URL adresu backendu začínajúcu na HTTP alebo HTTPS.</string>
-    <string name="server_error_official_active">api.nuvio.tv je oficiálny server a už je vybraný.</string>
-    <string name="server_error_official_available">api.nuvio.tv je oficiálny server. Zatvorte toto okno a vyberte možnosť Použiť oficiálny server pre návrat.</string>
+    <string name="server_error_official_active">Je oficiálny server a už je vybraný.</string>
+    <string name="server_error_official_available">Je oficiálny server. Zatvorte toto okno a vyberte možnosť Použiť oficiálny server pre návrat.</string>
     <string name="server_error_connection">Nepodarilo sa dosiahnuť koncový bod pre zistenie servera. Skontrolujte URL adresu a dostupnosť servera.</string>
     <string name="server_error_http">Koncový bod pre zistenie servera vrátil chybový kód HTTP %1$d.</string>
     <string name="server_error_response_too_large">Dokument pre zistenie servera je väčší, než je povolené.</string>

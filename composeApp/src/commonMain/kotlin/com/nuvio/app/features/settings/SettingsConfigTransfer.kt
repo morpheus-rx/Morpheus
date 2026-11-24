@@ -130,7 +130,7 @@ internal object SettingsConfigTransfer {
 
     fun exportFileName(): String {
         val date = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).date
-        return "nuvio-settings-$date.json"
+        return "morpheus-settings-$date.json"
     }
 
     fun export(includeCredentials: Boolean): String {

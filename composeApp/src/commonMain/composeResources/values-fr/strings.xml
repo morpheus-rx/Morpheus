@@ -400,8 +400,8 @@
     <string name="server_official_action">Utiliser le serveur officiel</string>
     <string name="server_switching">Changement en cours…</string>
     <string name="server_error_invalid_url">Saisissez une URL de backend HTTP ou HTTPS valide.</string>
-    <string name="server_error_official_active">api.nuvio.tv est le serveur officiel et il est déjà sélectionné.</string>
-    <string name="server_error_official_available">api.nuvio.tv est le serveur officiel. Fermez cette boîte de dialogue et choisissez «&#160;Utiliser le serveur officiel&#160;» pour revenir en arrière.</string>
+    <string name="server_error_official_active">Est le serveur officiel et il est déjà sélectionné.</string>
+    <string name="server_error_official_available">Est le serveur officiel. Fermez cette boîte de dialogue et choisissez «&#160;Utiliser le serveur officiel&#160;» pour revenir en arrière.</string>
     <string name="server_error_connection">Impossible de joindre le point de terminaison de découverte. Vérifiez l’URL et la disponibilité du serveur.</string>
     <string name="server_error_http">Le point de terminaison de découverte a renvoyé le code HTTP %1$d.</string>
     <string name="server_error_response_too_large">Le document de découverte est plus volumineux que la taille autorisée.</string>
@@ -588,7 +588,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">Utilisé pour les effets de flou d’arrière-plan. Créé par Chris Banes.</string>
     <string name="settings_licenses_attributions_haze_license">Distribué sous la licence Apache, version 2.0.</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Le code source et les termes de la licence sont disponibles dans le dépôt du projet.</string>
     <string name="settings_licenses_attributions_nuvio_license">Distribué sous la licence GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

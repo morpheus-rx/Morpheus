@@ -402,8 +402,8 @@
     <string name="server_official_action">Usar servidor oficial</string>
     <string name="server_switching">Alternando…</string>
     <string name="server_error_invalid_url">Insira uma URL válida de backend HTTP ou HTTPS.</string>
-    <string name="server_error_official_active">api.nuvio.tv é o servidor oficial e já está selecionado.</string>
-    <string name="server_error_official_available">api.nuvio.tv é o servidor oficial. Feche este diálogo e escolha a opção “usar servidor oficial” para retornar.</string>
+    <string name="server_error_official_active">É o servidor oficial e já está selecionado.</string>
+    <string name="server_error_official_available">É o servidor oficial. Feche este diálogo e escolha a opção “usar servidor oficial” para retornar.</string>
     <string name="server_error_connection">Não foi possível alcançar o endpoint de descoberta. Verifique a URL e a disponibilidade do servidor.</string>
     <string name="server_error_http">O endpoint de descoberta retornou HTTP %1$d.</string>
     <string name="server_error_response_too_large">O documento de descoberta é maior do que o permitido.</string>
@@ -627,7 +627,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">Usado para efeitos de desfoque de fundo. Criado por Chris Banes.</string>
     <string name="settings_licenses_attributions_haze_license">Licenciado sob a licença apache, versão 2.0.</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Código-fonte e termos de licença estão disponíveis no repositório do projeto.</string>
     <string name="settings_licenses_attributions_nuvio_license">Licenciado sob a GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>

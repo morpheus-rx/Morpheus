@@ -397,8 +397,8 @@
     <string name="server_official_action">Використовувати офіційний сервер</string>
     <string name="server_switching">Перемикання…</string>
     <string name="server_error_invalid_url">Введіть дійсний HTTP або HTTPS Backend URL.</string>
-    <string name="server_error_official_active">api.nuvio.tv є офіційним сервером і вже вибраний.</string>
-    <string name="server_error_official_available">api.nuvio.tv є офіційним сервером. Закрийте це вікно та виберіть «Використовувати офіційний сервер», щоб повернутися.</string>
+    <string name="server_error_official_active">Є офіційним сервером і вже вибраний.</string>
+    <string name="server_error_official_available">Є офіційним сервером. Закрийте це вікно та виберіть «Використовувати офіційний сервер», щоб повернутися.</string>
     <string name="server_error_connection">Не вдалося зв’язатися з кінцевою точкою виявлення. Перевірте URL і доступність сервера.</string>
     <string name="server_error_http">Кінцева точка виявлення повернула HTTP %1$d.</string>
     <string name="server_error_response_too_large">Документ виявлення перевищує дозволений розмір.</string>
@@ -585,7 +585,7 @@
     <string name="settings_licenses_attributions_haze_title">Haze 1.7.2</string>
     <string name="settings_licenses_attributions_haze_body">Використовується для ефектів розмиття фону. Автор: Кріс Бейнс (Chris Banes).</string>
     <string name="settings_licenses_attributions_haze_license">Ліцензовано за Apache License, версія 2.0.</string>
-    <string name="settings_licenses_attributions_nuvio_title">Morpheus Mobile</string>
+    <string name="settings_licenses_attributions_nuvio_title">Nuvio Mobile</string>
     <string name="settings_licenses_attributions_nuvio_body">Вихідний код і умови ліцензії доступні в репозиторії проєкту.</string>
     <string name="settings_licenses_attributions_nuvio_license">Ліцензовано за GNU General Public License v3.0.</string>
     <string name="settings_licenses_attributions_tmdb_title">The Movie Database (TMDB)</string>
